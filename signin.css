@@ -1,0 +1,110 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background-color: rgb(248, 249, 248);
+}
+p{
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.main-block{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 10px 10px 30px 10px;
+    border-style: solid;
+    border-color: rgb(197, 194, 194);
+    border-width: 2px;
+    background-color: rgb(245, 245, 245);
+
+}
+.image-container{
+    width: 60%;
+    
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.block1 p{
+    font-size: 20px;
+    font-weight: 550;
+}
+.user-pic{
+    width: 100%;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.input-staffs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.guide{
+    position: absolute;
+    top: -15px;
+    left: 12px;
+}
+.text-box{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    font-size: 18px;
+    border-style:none;
+    border-color: rgb(204, 203, 203);
+    box-shadow: 0px 4px  rgba(202, 201, 201, 0.521);
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.checkbox{
+    position: absolute;
+    top: -20px;
+    left: 2px;
+    cursor: pointer;
+}
+.block3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block3 p{
+    color: gray;
+    font-size: 13px;
+}
+button, .signup-button{
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 17px;
+    border-style:none;
+    border-color: rgb(204, 203, 203);
+    box-shadow: 0px 4px  rgba(202, 201, 201, 0.521);
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+button:active, .signup-button:active{
+    border-color: rgb(204, 203, 203);
+    box-shadow: 0px 5px  rgba(202, 201, 201, 0.221);
+    opacity: 0.5;
+}
+.confirm{
+    margin-left: 5px;
+}
