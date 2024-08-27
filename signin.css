@@ -12,6 +12,7 @@ p{
     justify-content: center;
 }
 .main-block{
+    align-items: center;
     max-width: 300px;
     display: flex;
     flex-direction: column;
