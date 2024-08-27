@@ -1,5 +1,9 @@
 body{
+    
     font-family: arial;
+    display:flex;
+    align-items: center;
+     justify-content: center;
     margin: 0;
     background-color: rgb(248, 249, 248);
 }
